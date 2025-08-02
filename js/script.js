@@ -7,3 +7,10 @@ for (let count = 0; count < NUM_OF_SQUARES; count++) {
     square.classList.add("square");
     gridContainer.appendChild(square);
 }
+
+const squares = document.querySelectorAll("div .square");
+squares.forEach((square) => {
+    square.addEventListener("mouseenter", () => {
+        square.style.backgroundColor = "black";
+    })
+});
