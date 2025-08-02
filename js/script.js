@@ -6,7 +6,4 @@ for (let count = 0; count < NUM_OF_SQUARES; count++) {
     let square = document.createElement("div");
     square.classList.add("square");
     gridContainer.appendChild(square);
-
-    // Test
-    square.textContent = "test";
 }
