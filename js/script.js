@@ -21,12 +21,19 @@ function createGrid(size) {
 
 // Etch-A-Sketch Functionality
 function enableDraw() {
+    let interactionNum = 100;
     const squares = document.querySelectorAll(".square");
     squares.forEach((square) => {
         square.addEventListener("mouseenter", () => {
-            square.style.backgroundColor = "black";
+            square.style.backgroundColor = `rgb(${calcRandColor()}, ${calcRandColor()}, ${calcRandColor()})`;
+            interactionNum -= 10;
+            square.style.filter = `brightness(${interactionNum}%)`;
         })
     });
+}
+
+function calcRandColor() {
+    return Math.floor(Math.random() * 256);
 }
 
 // Header Button
