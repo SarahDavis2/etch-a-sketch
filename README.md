@@ -1,5 +1,7 @@
 # Project
-This is an etch a sketch by using the mouse
+Create pixel art with etch-a-sketch
 
 # Learning
 This project demonstrate JavaScript DOM capabilities
+
+[Live Demo](https://sarahdavis2.github.io/etch-a-sketch/)

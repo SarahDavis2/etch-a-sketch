@@ -15,6 +15,8 @@ body {
     gap: 16px;
 }
 
+/* HEADER */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -43,6 +45,8 @@ h1.header-left {
     font-family: Arial, Helvetica, sans-serif;
     color: #363636;
 }
+
+/* GRID */
 
 .grid-container {
     display: flex;
