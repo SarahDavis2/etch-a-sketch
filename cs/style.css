@@ -3,13 +3,16 @@
     margin: 0px;
 }
 
+body {
+    background-color: #f4f4f4;
+}
+
 .container {
     display: flex;
     justify-content: space-between;    
     align-items: center;
     flex-direction: column;
-    min-height: 100vh; /* 100vh is 100% viewport height */
-    background-color: #f4f4f4;
+    gap: 16px;
 }
 
 .header {
@@ -45,12 +48,11 @@ h1.header-left {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 45%;
+    width: 960px;
     height: 100%;
 }
 
 .square {
-    width: calc(100% / 17); /* Divide by 17 for an even 16 width grid */
     aspect-ratio: 1; /* Maintains height to square ratio */
     border: 1px solid #f4f4f4;
     background-color: white;
