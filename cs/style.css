@@ -3,12 +3,42 @@
     margin: 0px;
 }
 
-body {
+.container {
     display: flex;
-    justify-content: center;    
+    justify-content: space-between;    
     align-items: center;
+    flex-direction: column;
     min-height: 100vh; /* 100vh is 100% viewport height */
     background-color: #f4f4f4;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px;
+    background-color: #d3cdcd;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+
+button.header-right {
+    margin: 0 16px;
+    padding: 0 12px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 16px rgba(0,0,0,.2);
+    border: none;
+    background-color: white;
+    color: #363636;
+}
+
+button.header-right:hover {
+    background-color: #f4f4f4;
+}
+
+h1.header-left {
+    padding-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #363636;
 }
 
 .grid-container {
